@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0 50px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  font-weight: bold;
+}
+
+.navbarlogo img {
+  height: 100px;
+}
