@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import TitleMessage from '../components/TitleMessage'
+import About from './About'
 
 export default function homePage() {
   return (
@@ -9,8 +10,7 @@ export default function homePage() {
       <Hero />
       <TitleMessage />
       <Navbar />
-
-      <h1>Portafolio personal de Jorge Chirinos</h1>
+      <About />
     </div>
   )
 }
