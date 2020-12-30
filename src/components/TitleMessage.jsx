@@ -5,12 +5,13 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 30rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;
   strong {
     font-size: 1.25em;
+    font-family: 'Source Code Pro', monospace;
   }
   div {
     color: white;
@@ -23,6 +24,7 @@ const MyTitleMessage = styled.h1`
     .sub {
       font-size: 50px;
       letter-spacing: 2px;
+      font-family: 'Source Code Pro', monospace;
     }
   }
 `;

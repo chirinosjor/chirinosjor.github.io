@@ -8,7 +8,7 @@ import '../assets/styles/Hero.css'
 export default class Hero extends Component {
   render() {
     return (
-      <div>
+      <div name="home">
         <Carousel nextIcon="" nextLabel="" prevIcon="" prevLabel="" pauseOnHover={false}>
           <Carousel.Item interval={5000}>
             <img

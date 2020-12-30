@@ -1,15 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
-import About from './pages/About';
-
-import HomePage from './pages/HomePage';
+import React from 'react'
+import Hero from './components/Hero'
+import Navbar from './components/Navbar'
+import TitleMessage from './components/TitleMessage'
+import About from './components/About'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Route exact path="/" component={HomePage} />
-      <Route exact path="/about" component={About} />
-    </BrowserRouter>
+    <div>
+      <Navbar />
+      <Hero />
+      <TitleMessage />
+      <About />
+    </div>
   );
 };
 

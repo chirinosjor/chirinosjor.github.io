@@ -6,8 +6,8 @@ import '../assets/styles/About.css'
 
 export default function About() {
   return (
-    <div>
-      <h1>Acerca de mi</h1>
+    <div name="about">
+      <h1 className="section-title">Acerca de mi</h1>
       <div className="container about-me">
         <div className="profile-picture">
           <img src={profilePicture} alt=""/>
