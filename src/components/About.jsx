@@ -17,14 +17,19 @@ export default function About() {
             ¡Hola! Soy <span>Jorge Chirinos.</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum harum alias quas 
-            iste deserunt vero, excepturi debitis. Non ratione sunt laborum mollitia quo minima, 
-            ipsam vitae, sequi, necessitatibus amet quia.
+            De profesión soy Ingeniero Civil, pero siguiendo mi verdadera pasión que es la tecnología 
+            estoy desarrollando mis conocimientos en la programación.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum harum alias quas 
-            iste deserunt vero, excepturi debitis. Non ratione sunt laborum mollitia quo minima, 
-            ipsam vitae, sequi, necessitatibus amet quia.
+            Hasta la fecha mis fuertes son Ruby on Rails en el back-end y React.JS en el front-end, 
+            aunque tengo mi mente abierta en caso de que necesite aprender un nuevo lenguaje ya que 
+            soy de rápido aprendizaje y adaptación.
+          </p>
+          <p>
+            Poseo suscripción activa a la plataforma de cursos online de Platzi, en mi perfil de 
+            LinkedIn reflejo los certificados de los cursos aprobados hasta ahora.
+
+            Tengo conocimientos de inglés avanzados, tanto en escritura como oral, comprobables.
           </p>
           <p>
             Puedes encontrarme en: <br/>

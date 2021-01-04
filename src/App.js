@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import TitleMessage from './components/TitleMessage'
 import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <TitleMessage />
       <About />
+      <Skills />
     </div>
   );
 };
