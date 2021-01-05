@@ -6,34 +6,39 @@
 .skills-section h1 {
   color: white;
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
+}
+
+.skills-buttons {
+  text-align: center;
 }
 
 .skills-groups {
-  display: flex;
-  justify-content: space-between;
+  display: block;
 }
 
 .skills-group {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
   background-color: white;
   padding: 10px;
   text-align: center;
+  margin: 20px 0;
 }
 
 .skills-group ul {
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills-group li {
   list-style: none;
-  display: flex;
-  align-items: center;
+
 }
 
 .skills-group li img{
- height: 90px;
+ height: 80px;
+ width: 80px;
  margin: 0 20px 20px 20px;
 }
 
@@ -46,6 +51,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
+  border-bottom: 1px solid black;
 }
 
 
@@ -63,5 +69,5 @@
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.5);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
