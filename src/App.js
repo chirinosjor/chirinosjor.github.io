@@ -4,8 +4,7 @@ import Navbar from './components/Navbar'
 import TitleMessage from './components/TitleMessage'
 import About from './components/About'
 import Skills from './components/Skills'
-import Skills2 from './components/Skills2'
-import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -14,8 +13,8 @@ function App() {
       <Hero />
       <TitleMessage />
       <About />
-      <Skills2 />
-      <Experience />
+      <Skills />
+      <Projects />
     </div>
   );
 };
