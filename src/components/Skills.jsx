@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import '../assets/styles/Skills.css'
 
 // Skills images
@@ -14,15 +14,20 @@ import rails from '../assets/icons/rails.svg'
 import rspec from '../assets/icons/rspec.png'
 import heroku from '../assets/icons/heroku.svg'
 import git from '../assets/icons/git.svg'
-import github from '../assets/icons/github.svg'
+import whitegithub from '../assets/icons/whitegithub.png'
 import mysql from '../assets/icons/mysql.svg'
 import postgresql from '../assets/icons/postgresql.svg'
 import mongodb from '../assets/icons/mongodb.png'
+import Particles from 'react-particles-js';
+import particlesConfigSkills from '../config/configParticlesSkills'
 
 export default function Skills() {
-
+  const [key, setKey] = useState('home');
   return (
-    <div name="skills">
+    <div name="skills" style={{ position: 'relative', overflow: "hidden" }}>
+      <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfigSkills} />
+      </div>
       <section className="skills-section">
         <h1 className="section-title">Mis habilidades</h1>
         <div className="skills-groups container">
@@ -51,7 +56,7 @@ export default function Skills() {
             <ul>
               <li className="hvr-grow"><img src={heroku} alt="Heroku Logo"/><p>Heroku</p></li>
               <li className="hvr-grow"><img src={git} alt="Git Logo"/><p>GIT</p></li>
-              <li className="hvr-grow"><img src={github} alt="Github Logo"/><p>Github</p></li>
+              <li className="hvr-grow"><img src={whitegithub} alt="Github Logo"/><p>Github</p></li>
               <li className="hvr-grow"><img src={mysql} alt="My Sql Logo"/><p>My SQL</p></li>
               <li className="hvr-grow"><img src={postgresql} alt="Postgre SQL Logo"/><p>PostgreSQL</p></li>
               <li className="hvr-grow"><img src={mongodb} alt="MongoDB Logo"/><p>MongoDB</p></li>

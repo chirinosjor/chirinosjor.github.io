@@ -3,10 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faFacebook,faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import profilePicture from '../assets/images/profilePicture.jpg'
 import '../assets/styles/About.css'
+import Particles from 'react-particles-js';
+import particlesConfigAbout from '../config/configParticlesAbout'
 
 export default function About() {
   return (
-    <div name="about" className="about">
+    <div name="about" className="about" style={{ position: 'relative', overflow: "hidden" }}>
+      <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfigAbout} />
+      </div>
       <h1 className="section-title">Acerca de mi</h1>
       <div className="container about-me">
         <div className="profile-picture">
