@@ -51,6 +51,11 @@ span {
   color: black;
 }
 
+.socialmedia-icons img {
+  height: 50px;
+  width: 50px;
+}
+
 
 /* Grow */
 .hvr-grow {
@@ -65,6 +70,6 @@ span {
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.5);
 }

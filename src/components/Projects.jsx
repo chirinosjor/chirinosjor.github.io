@@ -1,5 +1,8 @@
 import React from 'react'
 import '../assets/styles/Projects.css'
+import Particles from 'react-particles-js';
+import particlesConfigProjects from '../config/configParticlesProjects'
+
 import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/project2.webp'
 import project3 from '../assets/images/project3.png'
@@ -18,21 +21,23 @@ import newtab from '../assets/icons/newtab.svg'
 
 export default function Projects() {
   return (
-    <div name="projects" className="projects-section">
-      <h1>Mis proyectos</h1>
+    <div name="projects" className="projects-section" style={{ position: 'relative', overflow: "hidden" }}>
+      <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfigProjects} />
+      </div>
+      <h1>My projects</h1>
       <div className="projects">
         <div className="project">
           <h2>Delivery orders manager</h2>
           <img src={project1} alt="project1"/>
           <div className="project-description">
-            <h4>Descripción del proyecto</h4>
+            <h4>Project description</h4>
             <p>
-              Este es un proyecto personal en el que los restaurantes pueden administrar sus ordenes 
-              actuales para poder tener el control de los tiempos de espera y los repartidores que 
-              esperan los pedidos.
+              This is a personal project in which restaurants can manage their current orders in 
+              order to be in control of waiting times and the delivery riders waiting for orders.
             </p>
           </div>
-          <h4>Teconologías usadas</h4>
+          <h4>Tech used</h4>
           <div className="tech-used">
             <div className="tech">
               <img src={html5} alt="Html5 Logo"/>
@@ -64,14 +69,14 @@ export default function Projects() {
           <h2>Delivery orders manager API</h2>
           <img src={project2} alt="project2"/>
           <div className="project-description">
-            <h4>Descripción del proyecto</h4>
+            <h4>Project description</h4>
             <p>
-              Este proyecto es un API creado para el funcionamiento del proyecto 
-              "Delivery orders manager" en el que se manejan los pedidos a través de 
-              peticiones HTTP y las respuestas son en formato JSON.
+              This project is an API created for the operation of the "Delivery orders manager" 
+              project in which orders are handled through HTTP requests and the responses are in 
+              JSON format.
             </p>
           </div>
-          <h4>Teconologías usadas</h4>
+          <h4>Tech used</h4>
           <div className="tech-used">
             <div className="tech">
               <img src={rails} alt="Html5 Logo"/>
@@ -95,15 +100,15 @@ export default function Projects() {
           <h2>Dogs shelter</h2>
           <img src={project3} alt="project3"/>
           <div className="project-description">
-            <h4>Descripción del proyecto</h4>
+            <h4>Project description</h4>
             <p>
-              Este proyecto es un refugio para perros abandonados, tiene un
-              area de invitados elaborado con HTML y CSS que incluye secciones dinámicas hechas con ERB
-              y un area de administración donde pueden realizar todas las operaciones de un CRUD tanto
-              con los refugios como con los perros que hay en cada uno de ellos.
+              This project is a shelter for abandoned dogs, it has a guest area made with HTML and 
+              CSS that includes dynamic sections made with ERB and an administration area where 
+              they can perform all the operations of a CRUD both with shelters and with the dogs 
+              that exist in each one of them.
             </p>
           </div>
-          <h4>Teconologías usadas</h4>
+          <h4>Tech used</h4>
           <div className="tech-used">
             <div className="tech">
               <img src={html5} alt="Html5 Logo"/>

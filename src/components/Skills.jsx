@@ -22,14 +22,13 @@ import Particles from 'react-particles-js';
 import particlesConfigSkills from '../config/configParticlesSkills'
 
 export default function Skills() {
-  const [key, setKey] = useState('home');
   return (
     <div name="skills" style={{ position: 'relative', overflow: "hidden" }}>
       <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfigSkills} />
       </div>
       <section className="skills-section">
-        <h1 className="section-title">Mis habilidades</h1>
+        <h1 className="section-title">My skills</h1>
         <div className="skills-groups container">
           <div id="frontend" className="skills-group">
             <p className="skills-name">Front-End</p>
@@ -52,7 +51,7 @@ export default function Skills() {
             </ul>
           </div>
           <div id="others" className="skills-group">
-            <p className="skills-name">Otros</p>
+            <p className="skills-name">Others</p>
             <ul>
               <li className="hvr-grow"><img src={heroku} alt="Heroku Logo"/><p>Heroku</p></li>
               <li className="hvr-grow"><img src={git} alt="Git Logo"/><p>GIT</p></li>

@@ -5,6 +5,8 @@ import profilePicture from '../assets/images/profilePicture.jpg'
 import '../assets/styles/About.css'
 import Particles from 'react-particles-js';
 import particlesConfigAbout from '../config/configParticlesAbout'
+import pdf from '../assets/files/mycv.pdf'
+import cvicon from '../assets/icons/cvicon.png'
 
 export default function About() {
   return (
@@ -12,32 +14,31 @@ export default function About() {
       <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfigAbout} />
       </div>
-      <h1 className="section-title">Acerca de mi</h1>
+      <h1 className="section-title">About me</h1>
       <div className="container about-me">
         <div className="profile-picture">
           <img src={profilePicture} alt=""/>
         </div>
         <div className="text-info">
           <p>
-            ¡Hola! Soy <span>Jorge Chirinos.</span>
+            Hello! i'm <span>Jorge Chirinos.</span>
           </p>
           <p>
-            De profesión soy Ingeniero Civil, pero siguiendo mi verdadera pasión que es la tecnología 
-            estoy desarrollando mis conocimientos en la programación.
+            By profession I am a Civil Engineer, but following my true passion which is technology
+            I am developing my knowledge in programming.
           </p>
           <p>
-            Hasta la fecha mis fuertes son Ruby on Rails en el back-end y React.JS en el front-end, 
-            aunque tengo mi mente abierta en caso de que necesite aprender un nuevo lenguaje ya que 
-            soy de rápido aprendizaje y adaptación.
+            My areas of strength are React.JS on the front end and Ruby on Rails on the back end,
+            although I have my mind open in case I need to learn a new language as
+            I am quick to learn and adapt.
           </p>
           <p>
-            Poseo suscripción activa a la plataforma de cursos online de Platzi, en mi perfil de 
-            LinkedIn reflejo los certificados de los cursos aprobados hasta ahora.
-
-            Tengo conocimientos de inglés avanzados, tanto en escritura como oral, comprobables.
+            I have an active subscription to the Platzi online courses platform, the certificates of the
+            courses approved so far are published on my LinkedIn profile. I have advanced knowledge of 
+            English, both written and spoken
           </p>
           <p>
-            Puedes encontrarme en: <br/>
+            You can find me in: <br/>
             <div className="socialmedia-icons">
 
               <a href="https://github.com/chirinosjor" target="blank">
@@ -58,6 +59,10 @@ export default function About() {
 
               <a href="https://www.facebook.com/ChirinosJor" target="blank">
                 <FontAwesomeIcon icon={faFacebook} size="2x" className="hvr-grow"/>
+              </a>
+
+              <a href={pdf} target="blank" className="hvr-grow">
+                <img src={cvicon} alt=""/>
               </a>
             </div>
           </p>
