@@ -24,8 +24,8 @@ export default function About() {
             Hello! i'm <span>Jorge Chirinos.</span>
           </p>
           <p>
-            By profession I am a Civil Engineer, but following my true passion which is technology
-            I am developing my knowledge in programming.
+            By profession I am an Engineer, but following my passion which is technology
+            I am developing my knowledge in full stack programming.
           </p>
           <p>
             My areas of strength are React.JS on the front end and Ruby on Rails on the back end,
@@ -33,9 +33,12 @@ export default function About() {
             I am quick to learn and adapt.
           </p>
           <p>
-            I have an active subscription to the Platzi online courses platform, the certificates of the
-            courses approved so far are published on my LinkedIn profile. I have advanced knowledge of 
-            English, both written and spoken
+            My goals as a full-stack developer includes learn how to create impressive web pages using 
+            appropriate web design techniques and programming paradigms.
+          </p>
+          <p>
+            I want to see myself in a year as part of a specialist team in back-end development, 
+            bringing new solutions to the challenges and helping people to be a better developer.
           </p>
           <p>
             You can find me in: <br/>
