@@ -41,9 +41,8 @@ export default function About() {
             bringing new solutions to the challenges and helping people to be a better developer.
           </p>
           <div>
-            You can find me in: <br/>
+            <p>You can find me in: <br/></p>            
             <div className="socialmedia-icons">
-
               <a href="https://github.com/chirinosjor" target="blank">
               <FontAwesomeIcon icon={faGithub} size="2x" className="hvr-grow"/>
               </a>

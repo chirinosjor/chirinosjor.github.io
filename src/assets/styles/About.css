@@ -1,6 +1,7 @@
 .about {
   height: 100%;
   background-color: white;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -63,6 +64,7 @@ span {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
+  font-size: 25px;
 }
 
 .socialmedia-icons a {
