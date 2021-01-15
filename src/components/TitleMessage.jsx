@@ -5,7 +5,7 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 30rem;
+  top: 20rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;
@@ -27,9 +27,19 @@ const MyTitleMessage = styled.h1`
       font-family: 'Source Code Pro', monospace;
     }
   }
-  @media only screen and (max-width: 700px) {
-    strong {
-      font-size: 90px;
+  @media only screen and (max-width: 768px) {
+    top: 30rem;
+    div {
+      font-weight: 500;
+      letter-spacing: 7px;
+      .main {
+        font-size: 30px;
+      }
+      .sub {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: 'Source Code Pro', monospace;
+      }
     }
   }
 `;

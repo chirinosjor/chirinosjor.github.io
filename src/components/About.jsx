@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faFacebook,faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import profilePicture from '../assets/images/profilePicture.jpg'
+import profilePic from '../assets/images/profilePicture.jpg'
 import '../assets/styles/About.css'
 import Particles from 'react-particles-js';
 import particlesConfigAbout from '../config/configParticlesAbout'
@@ -17,7 +17,7 @@ export default function About() {
       <h1 className="section-title">About me</h1>
       <div className="container about-me">
         <div className="profile-picture">
-          <img src={profilePicture} alt="profile picture"/>
+          <img src={profilePic} alt="profile pic"/>
         </div>
         <div className="text-info">
           <p>
@@ -40,7 +40,7 @@ export default function About() {
             I want to see myself in a year as part of a specialist team in back-end development, 
             bringing new solutions to the challenges and helping people to be a better developer.
           </p>
-          <p>
+          <div>
             You can find me in: <br/>
             <div className="socialmedia-icons">
 
@@ -68,7 +68,7 @@ export default function About() {
                 <img src={cvicon} alt=""/>
               </a>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>

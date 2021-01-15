@@ -1,10 +1,10 @@
 .projects-section {
-  height: 100vh;
+  height: auto;
   width: 90%;
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .projects-section {
     height: auto;
   }
@@ -21,7 +21,7 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .projects {
     display: block;
   }
@@ -38,7 +38,7 @@
   box-shadow: inset 1px 1px 1px -0.5px hsla(0,0%,100%,.7), 3px 3px 7px -3px rgba(0,0,0,.1);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .project {
     width: 100%;
     margin: 40px auto;
@@ -49,7 +49,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .project h2 {
     text-align: center;
     margin: 10px 0 20px 0;
@@ -61,7 +61,7 @@
   font-size: 30px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .project-description h4 {
     font-size: 40px;
     text-align: center;
@@ -72,7 +72,7 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .project-description p {
     font-size: 30px;
     text-align: center;
