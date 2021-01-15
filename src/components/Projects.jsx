@@ -61,8 +61,8 @@ export default function Projects() {
             </div>  
           </div>
           <div className="project-links">            
-            <a href="https://github.com/chirinosjor/delivery-orders-react" target="blank"><img src={github} alt="Github Logo"/></a>
-            <a href="https://deliver-orders-react.herokuapp.com/orders" target="blank"><img src={newtab} alt="Github Logo"/></a>
+            <a href="https://github.com/chirinosjor/delivery-orders-react" target="blank"><img src={github} alt="Github Logo" className="hvr-grow"/></a>
+            <a href="https://deliver-orders-react.herokuapp.com/orders" target="blank"><img src={newtab} alt="Github Logo" className="hvr-grow"/></a>
           </div>
         </div>
         <div className="project">
@@ -92,8 +92,8 @@ export default function Projects() {
             </div>
           </div>
           <div className="project-links">            
-            <a href="https://github.com/chirinosjor/delivery-orders-api" target="blank"><img src={github} alt="Github Logo"/></a>
-            <a href="https://delivery-orders-api.herokuapp.com/health" target="blank"><img src={newtab} alt="Github Logo"/></a>
+            <a href="https://github.com/chirinosjor/delivery-orders-api" target="blank"><img src={github} alt="Github Logo" className="hvr-grow"/></a>
+            <a href="https://delivery-orders-api.herokuapp.com/health" target="blank"><img src={newtab} alt="Github Logo" className="hvr-grow"/></a>
           </div>
         </div>
         <div className="project">
@@ -132,8 +132,8 @@ export default function Projects() {
             </div>    
           </div>
           <div className="project-links">            
-            <a href="https://github.com/chirinosjor/dogs_shelter" target="blank"><img src={github} alt="Github Logo"/></a>
-            <a href="https://dogs-shelter.herokuapp.com/" target="blank"><img src={newtab} alt="Github Logo"/></a>
+            <a href="https://github.com/chirinosjor/dogs_shelter" target="blank"><img src={github} alt="Github Logo" className="hvr-grow"/></a>
+            <a href="https://dogs-shelter.herokuapp.com/" target="blank"><img src={newtab} alt="Github Logo" className="hvr-grow"/></a>
           </div>
         </div>
       </div>

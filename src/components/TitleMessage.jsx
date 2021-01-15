@@ -27,6 +27,11 @@ const MyTitleMessage = styled.h1`
       font-family: 'Source Code Pro', monospace;
     }
   }
+  @media only screen and (max-width: 700px) {
+    strong {
+      font-size: 90px;
+    }
+  }
 `;
 
 const TitleMessage = () => (

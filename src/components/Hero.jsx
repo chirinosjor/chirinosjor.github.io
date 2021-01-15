@@ -9,7 +9,7 @@ export default class Hero extends Component {
   render() {
     return (
       <div name="home">
-        <Carousel nextIcon="" nextLabel="" prevIcon="" prevLabel="" pauseOnHover={false}>
+        <Carousel nextIcon="" nextLabel="" prevIcon="" prevLabel="" pause={false} className="carousel" >
           <Carousel.Item interval={5000}>
             <img
               className="d-block w-100 slides"

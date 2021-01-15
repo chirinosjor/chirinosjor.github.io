@@ -7,6 +7,14 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 1;
+  transition: top 0.5s; /* Transition effect when sliding down (and up) */
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    height: 300px;
+    background-color: black;
+  }
 }
 
 .links {
@@ -21,13 +29,20 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 700px) {
+  .links a {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
 .links a:hover {
   color: white;
 }
-.navbarlogo img {
-  height: 100px;
-}
-
 
 /* Underline From Center */
 .hvr-underline-from-center {

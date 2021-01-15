@@ -17,7 +17,7 @@ export default function About() {
       <h1 className="section-title">About me</h1>
       <div className="container about-me">
         <div className="profile-picture">
-          <img src={profilePicture} alt=""/>
+          <img src={profilePicture} alt="profile picture"/>
         </div>
         <div className="text-info">
           <p>
