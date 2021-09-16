@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": ".",
+  "homepage": "https://chirinosjor-portfolio.s3.amazonaws.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
